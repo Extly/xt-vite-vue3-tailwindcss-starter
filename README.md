@@ -55,28 +55,28 @@
 
 - [TypeScript](https://www.typescriptlang.org/)
 
-## Try it now!
-
 ## Standardized directory structure
 
-├── public/
-└── src/
-    ├── assets/                    // store static resources
-    ├── common/                    // general library
-    ├── components/                // general components
-    ├── router/                    // routers for Vue Router
-    ├── store/                     // state for Vuex
-    ├── style/                     // general CSS file
-    ├── utils/                     // utils function
-    ├── views/                     // pages
-    ├── App.vue
-    ├── main.ts
-    ├── shims-vue.d.ts
-├── tests/                         // unit test
-├── index.html
-├── tsconfig.json                  // TypeScript config file
-├── vite.config.ts                 // Vite config file
-└── package.json
+```sh
+  ├── public/
+  └── src/
+      ├── assets/                    // store static resources
+      ├── common/                    // general library
+      ├── components/                // general components
+      ├── router/                    // routers for Vue Router
+      ├── store/                     // state for Vuex
+      ├── style/                     // general CSS file
+      ├── utils/                     // utils function
+      ├── views/                     // pages
+      ├── App.vue
+      ├── main.ts
+      ├── shims-vue.d.ts
+  ├── tests/                         // unit test
+  ├── index.html
+  ├── tsconfig.json                  // TypeScript config file
+  ├── vite.config.ts                 // Vite config file
+  └── package.json
+```
 
 ## References
 
